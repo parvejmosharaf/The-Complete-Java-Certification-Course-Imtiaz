@@ -1,5 +1,7 @@
 package java_imtiaz.methods;
 
+import java_imtiaz.example.Example;
+
 public class learningMethods {
     public static void main(String[] args) {
         System.out.println("lkfdslkf");
@@ -8,6 +10,7 @@ public class learningMethods {
         MyUtils.sum2Numbers(10,5);
         //int myVar = MyUtils.add10(80);
         System.out.println(MyUtils.add10(80));
+        Example.doSomething();
     }
 
 }

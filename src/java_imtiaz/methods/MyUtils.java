@@ -1,6 +1,6 @@
 package java_imtiaz.methods;
 
-public class MyUtils {
+class MyUtils {
 
     public static void printSomeJunk(String argument){
         System.out.println("some bla bla bla. " + argument);
