@@ -6,7 +6,5 @@ public class Earth {
         Human human2 = new Human("Joe", 27,68, "black");
          human1.speak();
          human2.speak();
-
-
     }
 }
