@@ -12,6 +12,5 @@ public class Variables {
         String words = "This is a sentence.";
         System.out.println(words + " there have some more words.");
 
-
     }
 }
