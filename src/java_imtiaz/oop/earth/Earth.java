@@ -1,4 +1,4 @@
-package java_imtiaz.oop;
+package java_imtiaz.oop.earth;
 
 public class Earth {
     public static void main(String[] args) {

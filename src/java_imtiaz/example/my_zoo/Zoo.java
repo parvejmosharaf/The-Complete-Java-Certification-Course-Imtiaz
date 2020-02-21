@@ -1,4 +1,4 @@
-package java_imtiaz.oop.my_zoo;
+package java_imtiaz.example.my_zoo;
 
 public class Zoo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java_imtiaz.oop.my_zoo;
+package java_imtiaz.oop.zoo;
 
 public class Animal {
     String name;
@@ -10,12 +10,11 @@ public class Animal {
         this.age = age;
         this.weight = weight;
     }
-
-
     public void eat(){
-        System.out.println("eating...");
+        System.out.println("Eating...");
     }
     public void sleep(){
-        System.out.println("Sleeping...");
+        System.out.println("Sleeping....");
     }
+
 }

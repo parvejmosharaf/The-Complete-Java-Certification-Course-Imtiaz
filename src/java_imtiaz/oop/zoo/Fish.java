@@ -1,4 +1,4 @@
-package java_imtiaz.oop.my_zoo;
+package java_imtiaz.oop.zoo;
 
 public class Fish extends Animal {
     public Fish(String name, int age, double weight) {
@@ -6,6 +6,6 @@ public class Fish extends Animal {
     }
 
     public void swim(){
-        System.out.println("Fish can swim");
+        System.out.println("Swim...");
     }
 }
