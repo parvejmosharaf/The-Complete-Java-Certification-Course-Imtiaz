@@ -1,7 +1,24 @@
 package java_imtiaz.car_dealership;
 
+import java.util.Objects;
+
 public class Vehicle {
     private String make;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Vehicle)) return false;
+        Vehicle vehicle = (Vehicle) o;
+        return Double.compare(vehicle.getPrice(), getPrice()) == 0 &&
+                getMake().equals(vehicle.getMake()) &&
+                getModel().equals(vehicle.getModel());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getMake(), getModel(), getPrice());
+    }
 
     @Override
     public String toString() {
